@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>GREEFA</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="wisth=app-width, inisial-scale=1">
+  <script src="jq.js"></script>
+</head>
+<body id="bd">
+  <div id="container">
+
+<div id="tvinfo"><div id="tvid">Sort: 14</div><div id="tvip">192.168.1.69</div></div><div id='vrty'><div id='vrty1'>Varity</div><div id='vrty2'>Delyca</div></div>
+<div id='size'><div id='size1'>Size</div><div id='size2'>67 - 72</div></div>
+<div id="cl" style="background-color: red;">COLOR</div><div id="client"><div id="client1">Code Client</div><div id="client2">2</div></div><pre id="up">0</pre><pre id="up2">14</pre>
+
+<script>
+var up = $("#up").text();
+var id = $("#up2").text();
+if ( up == 1) {
+	$.post('Q.php?q=update greefatb set updated=0 where ID="' + id + '"')
+	$("#cl").toggleClass("acl");
+	$("#vrty2").toggleClass("acl");
+	$("#size2").toggleClass("acl");
+	setTimeout(function(){ location.reload(); }, 15000);
+}
+if ( up == 0 ) {
+	setTimeout(function(){ location.reload(); }, 3000);
+}
+
+</script>
+
+  </div> <!--containert-->
+</body>
+</html>

@@ -1,0 +1,169 @@
+ 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GREEFA Pilot</title>
+  <link rel="stylesheet" href="GPStyle.css">
+  <meta name="viewport" content="wisth=app-width, inisial-scale=1">
+  <meta http-equiv="Expires" content="Mon, 26 Jul 1997 05:00:00 GMT">
+  <meta http-equiv="Pragma" content="no-cache">
+  <script src="jq.js"></script>
+</head>
+<body unselectable="on" onselectstart="return false;" ">
+  <div id="container">
+    <div id="main">
+	  <div><p id="pid">1</p>
+	  <p id="ip">0.0.0.0</p></div>
+	  <!--####	Varity	####-->
+	  <div id="threes">
+	  <div id="vrtyB">
+	  <h1 id="h11">Varity</h1>
+	  <form id="vrty" action="">
+        <select id="varity-select" name="varity">
+        <option value="Pitenza">Pitenza</option>
+		<option value="Delyca" selected>Delyca</option>
+        <option value="Adriana">Adriana</option>
+        </select>
+      </form>
+	  </div>
+	  
+	  <!--####	 Size	####-->
+	  <div id="sizeB">
+	  <h1 id="h12">Size</h1>
+	  <form id="size" action="">
+        <select id="size-select" name="Size">
+        <option value="40 - 47" selected>40 - 47</option>
+        <option value="47 - 52">47 - 52</option>
+		<option value="52 - 57">52 - 57</option>
+		<option value="57 - 62">57 - 62</option>
+		<option value="62 - 67">62 - 67</option>
+		<option value="67 - 72">67 - 72</option>
+        </select>
+      </form>
+	  </div>
+	  
+	  <div id="nclB">
+	  <h1 id="h3">N° Client</h1>
+	  <form id="ncl" action="">
+        <select id="ncl-select" name="Ncl">
+        <option value="1" selected>1</option>
+        <option value="2">2</option>
+		<option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        </select>
+      </form>
+	  </div>
+      </div>
+	  <hr id="hr2">
+	  <!--####   Color ####-->
+	  <h1 id="h2">Color</h1>
+	  <form action="">
+        <div class="Rcl" id="RR" style="background-color: red"><input class="background-color: red" type="radio" id="Red" name="color" value="red">
+        <label for="Red">Red</label></div><br>
+        <div class="Rcl" id="OR" style="background-color: darkorange"><input class="background-color: darkorange" type="radio" id="Orange" name="color" value="darkorange">
+        <label for="Orange">Orange</label></div><br>
+        <div class="Rcl" id="GR" style="background-color: green"><input class="background-color: green" type="radio" id="Green" name="color" value="green">
+        <label for="Green">Green</label></div>
+      </form>
+	  <div id="submit" >OK</div>
+	  
+	</div><!--main-->
+ 
+    <div id="TVs">
+	  <div id="TVList1">
+	  
+		<div style="background-color: green"class="TV" id="1"><p class="tvid" id="192.168.1.31">1</p><p class="tvp">Delyca</p><p class="sizep">47 - 52</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: green"class="TV" id="2"><p class="tvid" id="192.168.1.102">2</p><p class="tvp">Delyca</p><p class="sizep">57 - 62</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: green"class="TV" id="3"><p class="tvid" id="192.168.1.103">3</p><p class="tvp">Delyca</p><p class="sizep">62 - 67</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: darkorange"class="TV" id="4"><p class="tvid" id="192.168.1.104">4</p><p class="tvp">Pitenza</p><p class="sizep">52 - 57</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: darkorange"class="TV" id="5"><p class="tvid" id="192.168.1.105">5</p><p class="tvp">Pitenza</p><p class="sizep">52 - 57</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: darkorange"class="TV" id="6"><p class="tvid" id="192.168.1.106">6</p><p class="tvp">Pitenza</p><p class="sizep">62 - 67</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: darkorange"class="TV" id="7"><p class="tvid" id="192.168.1.107">7</p><p class="tvp">Pitenza</p><p class="sizep">62 - 67</p><pre class="nclp">1</pre></div>		
+	  
+	  </div><!--TVList1-->
+	  <div id="TVList2">
+	  
+	  <div style="background-color: darkorange"class="TV" id="8"><p class="tvid" id="192.168.1.108">8</p><p class="tvp">Pitenza</p><p class="sizep">52 - 57</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: darkorange"class="TV" id="9"><p class="tvid" id="192.168.1.109">9</p><p class="tvp">Pitenza</p><p class="sizep">67 - 72</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: darkorange"class="TV" id="10"><p class="tvid" id="192.168.1.110">10</p><p class="tvp">Pitenza</p><p class="sizep">52 - 57</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: red"class="TV" id="11"><p class="tvid" id="192.168.1.111">11</p><p class="tvp">Pitenza</p><p class="sizep">57 - 62</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: red"class="TV" id="12"><p class="tvid" id="192.168.1.112">12</p><p class="tvp">Pitenza</p><p class="sizep">57 - 62</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: red"class="TV" id="13"><p class="tvid" id="192.168.1.113">13</p><p class="tvp">Adriana</p><p class="sizep">57 - 62</p><pre class="nclp">1</pre></div>		
+		<div style="background-color: red"class="TV" id="14"><p class="tvid" id="NULL">14</p><p class="tvp">Delyca</p><p class="sizep">67 - 72</p><pre class="nclp">2</pre></div>	  
+	  </div><!--TVList2-->
+	</div><!--TVs-->
+  
+  </div> <!--containert-->
+  
+<script>
+
+	$(".TV").click (function() {
+		var id ="#" + $(this).attr("id");
+		$(".TV").removeClass("slct");
+		$( id ).toggleClass("slct"); // selector
+		
+		$("option").removeAttr("selected");
+		var vrty = $(this).children("p:nth-child(2)").text();
+		$('select[name="varity"]').val(vrty); //change varity value
+		
+		var size = $(this).children("p:nth-child(3)").text();
+		$('select[name="Size"]').val(size); //change size value
+		
+		var cl = $(this).attr("style");
+		$(".Rcl").removeClass("slct");
+		$('.Rcl[style="'+cl+'"]').toggleClass("slct"); //selector
+		$('input[name="color"][class="'+cl+'"]').prop('checked', true); //change color value
+		var r = $('input[name="color"]:checked').val(); // get color value
+		
+		$("#pid").text("Port: " + id);
+		var ip = $(this).children("p:nth-child(1)").attr("id");
+		$("#ip").text(ip)
+		
+		var ncl = $(this).children("pre").text();
+		$('select[name="Ncl"]').val(ncl); //change ncl value
+		
+		$("#submit").addClass("okslct");
+		
+	});
+	
+	$('.Rcl').click (function() {
+		$(".Rcl").removeClass("slct");
+		$(this).toggleClass("slct"); // selector
+		$(this).children('input').prop('checked', true); //change color value
+		var r = $('input[name="color"]:checked').val(); // get color value
+		
+		
+	});
+	
+	
+	$("#submit").click ( function() {           // OK BUTTON
+		$("#submit").removeClass("okslct");
+		var vr = $('select[name="varity"]').val();
+		var sz = $('select[name="Size"]').val(); 
+		var cl = $('input[name="color"]:checked').val();
+		var ncl = $('select[name="Ncl"]').val();
+		var ip = $("#ip").text();
+		var sql = 'UPDATE greefatb SET varity="' + vr + '", updated=1 , color="' + cl + '", size="' + sz + '", ncl="' + ncl + '" WHERE ip="' + ip + '"';
+		//alert(sql);
+		$.post("Q.php?q=" + sql);
+		setTimeout(function(){ location.reload(); }, 100); //reload the page
+	});
+</script>
+</body>
+</html>

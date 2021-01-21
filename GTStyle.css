@@ -1,0 +1,132 @@
+#bd {
+	background-image: url("st.jpg");
+	background-position: center;
+	background-size: 60%;
+	background-repeat: no-repeat;
+	
+}
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:auto;
+	margin-top: auto;
+}
+
+#tvinfo {
+	margin:auto;
+	margin-bottom: 1%;
+	width: 70%;
+	box-shadow: 3px 3px 12px #eee;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #eee;
+}
+
+#tvid {
+	display: inline;
+	font-size: 2rem;
+}
+#tvip {
+	float: right;
+	display: inline;
+	font-size: 2rem;
+}
+
+
+#vrty {
+	box-shadow: 3px 3px 12px gray;
+	border-radius: 40px;
+	width: 90%;
+	padding:20px;
+	margin: auto;
+	margin-bottom: 2%;
+}
+
+#vrty1 {
+	font-size: 200%;
+}
+#vrty2 {
+	font-size: 600%;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#size {
+	box-shadow: 3px 3px 12px gray;
+	border-radius: 40px;
+	width: 90%;
+	padding:20px;
+	margin: auto;
+	margin-bottom: 2%;
+}
+
+#size1 {
+	font-size: 200%;
+}
+#size2 {
+	font-size: 600%;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+#cl {
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 3px 3px 12px gray;
+	border-radius: 40px;
+	width: 90%;
+	padding:20px;
+	margin: auto;
+	margin-bottom: 2%;
+	font-family: calibri light;
+	font-size: 500%;
+	color: white;
+}
+
+#client {
+	margin:auto;
+	margin-bottom: 2%;
+	width: 70%;
+	box-shadow: 3px 3px 12px #eee;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #eee;
+}
+#client1 {
+	font-size: 150%;
+}
+#client2 {
+	font-size: 3rem;
+	width: 100%;
+	text-align: center;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+#up {
+	display: none;
+}
+#up2 {
+	display: none;
+}
+
+.acl {
+	animation: up 1s ease-in 1s infinite;
+	-webkit-animation: up 1s ease-in 1s infinite;
+	-moz-animation: up 1s ease-in 1s infinite;
+}
+@keyframes up {
+	0% { filter: opacity(100%); }
+	100% { filter: opacity(0%); }
+}
+@-webkit-keyframes up {
+	0% { filter: opacity(100%); }
+	100% { filter: opacity(0%); }
+}
+@-moz-keyframes up {
+	0% { filter: opacity(100%); }
+	100% { filter: opacity(0%); }
+}
